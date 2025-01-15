@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Fitness Solution</title>
+</head>
+<body>
+    <div>
+        <!-- Navbar -->
+        <div class="navbar">
+            <ul class="bar">
+                <li>
+                    <a class="bar-item button padding-large hide-medium hide-large right" href="javascript:void(0)" onclick="toggleMenu()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                </li>
+                <li>
+                    <a href="#home" class="bar-item button padding-large">Home</a>
+                </li>
+                <li class="hide-small">
+                    <a href="#about" class="bar-item button padding-large">ABOUT</a>
+                </li>
+                <li class="hide-small">
+                    <a href="#service" class="bar-item button padding-large">SERVICE</a>
+                </li>
+                <li class="hide-small">
+                    <a href="#testimonials" class="bar-item button padding-large">TESTIMONY</a>
+                </li>
+                <li class="hide-small">
+                    <a href="#contact" class="bar-item button padding-large">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="bar-block black hide hide-large hide-medium d-none" style="margin-top:46px">
+            <ul>
+                <li>
+                    <a href="#about" class="bar-item button padding-large" onclick="toggleMenu()">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#service" class="bar-item button padding-large" onclick="toggleMenu()">SERVICE</a>
+                </li>
+                <li>
+                    <a href="#testimonials" class="bar-item button padding-large" onclick="toggleMenu()">TESTIMONY</a>
+                </li>
+                <li>
+                    <a href="#contact" class="bar-item button padding-large" onclick="toggleMenu()">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <section id="home">
+        <div class="hero">
+         <div class="hero-text">
+          <h1>Move Your Body,<br>
+             Shape Your Future</h1>      
+         </div>
+        
+        </div>
+    </section>
+    <main>
+      <div class="about" id="about">
+        <div>
+        <h2 class="title">
+               Get to Know me
+        </h2>
+        <div class="about-main">
+          <div>
+
+          </div>
+          <div class="about-text">
+             <h3>I'm Mohamed<br>Personal Trainer </h3>
+             <p> A certified trainer committed to helping you achieve your fitness goals. 
+                Whether you're looking to build strength, lose weight, or improve your overall health, I'm here to guide you every step of the way.</p>
+             <div style="margin-top:40px">
+              <span class="text-white social" >
+                <p >Follow Me on Social media</p>
+                <div class="margin-top">
+             <a href="https://www.facebook.com/" target="_blank">  <i class="fa fa-facebook-official hover-opacity icons" ></i></a> 
+             <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram hover-opacity icons" ></i></a> 
+             <a href="https://www.snapchat.com/" target="_blank"><i class="fa fa-snapchat hover-opacity icons"></i></a>  
+             <a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p hover-opacity icons" ></i></a>  
+             <a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter hover-opacity icons"></i></a>  
+             <a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin hover-opacity icons"></i></a>  
+             </div>
+              </span>
+             </div>
+            
+          </div>
+
+        </div>
+        </div>
+
+      </div>
+      <div class="service" id="service">
+         <h2 class="title"> __Service</h2>
+
+         <div class="card">
+           <div class="card-list">
+              <div class="card-image">
+                <img src="https://images.unsplash.com/photo-1662045010188-b5e91a7f504b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2VpZ2h0JTIwbGlmdGluZ3xlbnwwfHwwfHx8MA%3D%3D" alt="Photo by Rachel Moore | Unsplash"/>
+              </div>
+              <div class="card-text"> 
+                <h4>Weight Lifting</h4>
+                <p>$20/Session</p>
+                <a href="#join">
+                  <button class="btn" type="button">Join</button>
+                </a>
+
+              </div>
+           </div>
+           <div class="card-list">
+            <div class="card-image">
+              <img src="https://images.unsplash.com/photo-1621750627159-cf77b0b91aac?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM3fHxib2R5YnVpbGRpbmd8ZW58MHx8MHx8fDA%3D" alt="Photo by Norbert Buduczki | Unsplash"/>
+            </div>
+            <div class="card-text"> 
+              <h4>Bodybuilding</h4>
+              <p>$400/Month</p>
+              <a href="#join">
+                <button class="btn" type="button">Join</button>
+              </a>
+            </div>
+
+           </div>
+           <div class="card-list"><div class="card-image">
+            <img src="https://spaces.w3schools.com/images/0ShTs8iPY28.jpg" alt="Photo by Spencer Davis | Unsplash"
+            />
+          </div>
+          <div class="card-text"> 
+            <h4>Functional Fitness</h4>
+            <p>$40/Month</p>
+            <a href="#join">
+              <button class="btn" type="button">Join</button>
+            </a>
+
+          </div>
+
+           </div>
+         </div>
+      </div>
+      
+
+<section id="testimonials">
+    <div class="testimonial-heading">
+        <h2 class="title"> __ What They say about us</h2>
+    </div>
+    <div class="testimonial-box-container">
+        <div class="testimonial-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="https://images.unsplash.com/photo-1594774530926-220e3c5e77c2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHJlYWwlMjBmYWNlfGVufDB8fDB8fHww" />
+                    </div>
+                    <div class="name-user">
+                        <strong>Liam mendes</strong>
+                        <span>@liammendes</span>
+                    </div>
+                </div>
+              
+            </div>
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+            </div>
+        </div>
+        <div class="testimonial-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTV8fHJlYWwlMjBmYWNlfGVufDB8fDB8fHww" />
+                    </div>
+                    <div class="name-user">
+                        <strong>Noah Wood</strong>
+                        <span>@noahwood</span>
+                    </div>
+                </div>
+         
+            </div>
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+            </div>
+        </div>
+        <div class="testimonial-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="https://images.unsplash.com/photo-1514626585111-9aa86183ac98?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fHJlYWwlMjBmYWNlfGVufDB8fDB8fHww" />
+                    </div>
+                    <div class="name-user">
+                        <strong>Oliver Queen</strong>
+                        <span>@oliverqueen</span>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+            </div>
+        </div>
+        <div class="testimonial-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="https://plus.unsplash.com/premium_photo-1669703777663-a45e924bcda0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJhcnJ5JTIwYWxsZW58ZW58MHx8MHx8fDA%3D" />
+                    </div>
+                    <div class="name-user">
+                        <strong>Barry Allen</strong>
+                        <span>@barryallen</span>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="client-comment">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quaerat quis? Provident temporibus architecto asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam tenetur voluptates incidunt blanditiis sed atque cumque.</p>
+            </div>
+        </div>
+    </div>
+  </section>
+
+          <div class="contact_us">
+            <div class="responsive-container-block bigContainer">
+              <div class="responsive-container-block Container">
+                <div class="responsive-cell-block wk-desk-5 wk-ipadp-4 wk-tab-12 wk-mobile-12">
+                  <img class="mainImg" src="https://spaces.w3schools.com/images/ZXq7xoo98b0.jpg">
+                </div>
+                <div class="responsive-cell-block wk-desk-7 wk-ipadp-8 wk-tab-12 wk-mobile-12">
+                  <p class="text-blk heading">
+                    Contact Me
+                  </p>
+                  <form class="formTable" id="izml">
+                    <div class="firstRow">
+                      <div class="fullNameArea">
+                        <p class="cardHead">
+                          Full Name
+                        </p>
+                        <input class="fullName" id="fullName" name="fullName" type="text" placeholder="full name...">
+                      </div>
+                      <div class="emailArea">
+                        <p class="cardHead">
+                          Email Address
+                        </p>
+                        <input class="email" id="email" name="email" type="text" placeholder="email...">
+                      </div>
+                    </div>
+                    <div class="messageArea">
+                      <p class="cardHead">
+                        Message
+                      </p>
+                      <textarea class="message" cols="30" id="message" name="message" rows="10" placeholder="How can I help you?..."></textarea>
+                    </div>
+                    <a class="submit" href="#" id="w-c-s-bgc_p-1-dm-id-4">
+                      Send Message
+                    </a>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+
+      <div class="contact-address" id="contact">
+        <h2 class="title"> __ GET IN TOUCH</h2>
+        <div class="contact-address-list">
+          <div class="contact-list">
+            <h4>location</h4>
+            <p>4400 boone rd.
+             Houston, TX 77072</p>
+          
+          
+          </div>
+          <div class="contact-list">
+             <h4>Opening Hour</h4>
+             <p>Monday- Saturday: 8am -9:30pm</p>
+             <p>Sunday:8am- 9pm</p>
+       
+          </div>
+          <div class="contact-list">
+            <h4>Say hello</h4>
+            <p> <i class="fa fa-phone " style="margin-right: 8px;font-size: 20px;"></i> 763-957-6781</p>
+            <p><i class="fa fa-phone" style="margin-right: 8px;font-size: 20px;"></i>706-734-2591</p>
+            <p><i class="fa fa-envelope " style=" margin-right: 5px;font-size: 20px;"></i>kllmffe23@gmail.com</p>
+             
+        </div>
+
+        </div>
+
+      </div>
+
+    
+    </main>
+ 
+    <script src="index.js"></script>
+    <script src='https://kit.fontawesome.com/c8e4d183c2.js'></script>
+</body>
+</html>
